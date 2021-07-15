@@ -1,0 +1,32 @@
+ git config --global user.name #username = user name of the editor
+ git config --global user.email #email = user email of the editor
+ code . = opens vscode
+ git init => helps to initialize new repo
+  ls = shows files
+ ls -al = shows all hidden files
+ git status => shows status of all files in repo
+  touch => creates file in console
+  git add -A => add all the file to staging area
+ git commit -m "#Message" => commits all the file
+ git checkout #filename => Helps to revert the old version of file before commit but only one file 
+ git checkout -f  => helps to get back all file back
+ git log => helps to show log of all commits
+ git log -p -#numberofhowmanycommittobeseem 
+ git diff => compares same file with modified and unmodifeied version (for this we must not commit)
+ git diff --staged => comapre with last commit 
+ git rm --cached new.html => Removes from staging area
+				Git Ignore
+ first create .gitignore
+ than open gitignore  and write name if file
+ for ignoring any extenson like txt use *txt
+ for ignoring any folder use Folder/
+				Git branch (used for cloning and making seprate copy for not modifing main fl
+ git branch: Shows all branches 
+ git branch #Name : Makes branch of Name
+ git checkout #NAME : Moves to Name branch
+ git merge #NAME : merges the NAME branch
+ 
+				Git hub
+ git push -u origin master => pushes files to repo of git hub
+	Can be transferd more branches simply by going on the branch and typing same command 
+	Where master is changed by the branch nameu origin
